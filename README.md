@@ -19,14 +19,18 @@ This is a simple hospital management system created in Python, using MySQL for t
   ```bash
   pip install pandas
 ## **MySQL Connector**
-To install the MySQL Connector, run the following command:
-```bash
-pip install mysql-connector-python
-
-## **Database Setup**
-1. Start the MySQL server.
-2. Create a database named `project`. (If the database doesn't exist, the script will create it automatically.)
-3. Run the Python script to start managing hospital records.
-
-## **Contributing**
+- To install the MySQL Connector, run the following command:
+-   ```bash
+    pip install mysql-connector-python
+## Contributing
 Contributions are welcome! If you'd like to improve the project:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+3. Make your changes and commit:
+   ```bash
+    git commit -m 'Add some feature'
+4. Push to the branch:
+    ```bash
+    git push origin feature-branch
